@@ -70,3 +70,39 @@ nav li {
     color: #757575;
     margin-bottom: 30px;
 }
+
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*-------------- About Section Styles --------------*/
+.about {
+    padding: 60px 100px;
+    margin: 100px 230px;
+    background-color: #FFF8F3;
+    text-align: center;
+}
+.section-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.section-description {
+    color: #757575;
+    margin-bottom: 30px;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-info {
+    font-size: 18px;
+}
+.about-info-name {
+    color: #757575;
+}
+.about-info-value {
+    color: #474747;
+    font-weight: 700;
+}
