@@ -177,3 +177,32 @@ main {
 .resume .resume-btn {
     text-align: center;
 }
+
+
+/* Contact Styles*/
+.contact {
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+}
+.social p {
+    color:#474747;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.social a {
+    text-decoration: none;
+    margin-right: 24px;
+}
+.send-msg input[type="text"], input[type="email"] {
+    height: 40px;
+}
+.send-msg input[type="text"], input[type="email"] , textarea {
+    border: 0;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
